@@ -1,0 +1,6 @@
+tail -f foo | grep -E "\s\d{2}$"
+ps -Ao user,pid,command | grep tail.py | awk '{print $2}' | xargs kill -9
+find ~/ -name "*.log" -maxdepth 4
+find . -exec ls -la {} \;
+find ~/ -name "*.log" -maxdepth 2 -exec ls -la {} \;
+find ~/ -name "*.log" -maxdepth 2 -exec stat -x {} \;

@@ -1,0 +1,27 @@
+db:
+  connection_string: postgres://test:test@localhost:5432/test?sslmode=disable
+api:
+  url: http://ya.ru
+  user: test
+  int_representation: 12
+  float_value: 3.23
+  list_representation: [1, 2, 3]
+users:
+  1:
+    first_name: Ivan
+    last_name: Ivanov
+    email: ivanov@mail.ru
+    city: Moscow
+    zip_code: 12345
+  2:
+    first_name: Ivan
+    last_name: Ivanov
+    email: ivanov@mail.ru
+    city: Moscow
+    zip_code: 12345
+  3:
+    first_name: Ivan
+    last_name: Ivanov
+    email: ivanov@mail.ru
+    city: Moscow
+    zip_code: 12345
